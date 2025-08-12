@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chandan Gurung | Full Stack Java Developer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <h1>Chandan Gurung</h1>
+            <p>Full Stack Java Developer | Cloud-Native Solutions</p>
+        </div>
+
+        <nav id="mainNav">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <button id="hireBtn" class="btn" aria-haspopup="dialog">Hire Me</button>
+        <!-- Mobile Menu Button -->
+        <button id="menuToggle" aria-label="Toggle navigation" class="menu-toggle">☰</button>
+    </header>
+
+    <!-- About -->
+    <section id="about" class="light-section">
+        <h2>About Me</h2>
+        <img src="/profile.JPG" alt="Chandan Gurung" class="profile-pic">
+        <p>I’m a results-driven <strong>Full Stack Java Developer</strong> with over 6 years of experience building scalable, secure, and high-performance applications for finance, healthcare, and enterprise systems. My expertise spans front-end and back-end development, cloud deployments, and agile delivery. I’m passionate about creating elegant solutions that solve complex problems and delivering value to end-users.</p>
+        <p>Outside of coding, I enjoy exploring new cloud services, contributing to open-source projects, and mentoring aspiring developers.</p>
+        <button id="moreBtn" class="btn">More about me</button>
+        <div id="moreContent" style="display:none; margin-top:1rem;">
+            <p>
+                I specialize in designing cloud-native microservices, performance tuning, and automated CI/CD pipelines.
+                I mentor junior engineers and enjoy hands-on work with AWS ECS/EKS and container orchestration.
+            </p>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills">
+        <h2>Technical Skills</h2>
+        <div class="skills-grid">
+            <div><h3>Languages</h3><p>Java, JavaScript, TypeScript, SQL, HTML5, CSS3, Bash, Python</p></div>
+            <div><h3>Frameworks</h3><p>Spring Boot, Spring MVC, Hibernate, React.js, Angular, Node.js, jQuery</p></div>
+            <div><h3>Databases</h3><p>MySQL, PostgreSQL, Oracle, MongoDB</p></div>
+            <div><h3>Tools</h3><p>Git, Maven, Gradle, Jenkins, Docker, Postman, Swagger, ELK Stack</p></div>
+            <div><h3>Cloud & DevOps</h3><p>AWS, Azure, Kubernetes, GitHub Actions, CI/CD Pipelines</p></div>
+            <div><h3>Testing</h3><p>JUnit, Mockito, Selenium, REST Assured, TestNG</p></div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="light-section">
+        <h2>Projects</h2>
+        <div class="project-card">
+            <img src="images/project1.png" alt="Digital Banking Platform">
+            <div>
+                <h3>Digital Banking & Investment Platform</h3>
+                <p>Designed cloud-native microservices with <strong>Spring Boot</strong> and <strong>Hibernate</strong>, secure portals with <strong>React.js</strong>, and AWS ECS/EKS deployments. Improved backend latency by 35% with Redis caching and async messaging.</p>
+                <a href="projects/project1.html" class="btn">View Details</a>
+            </div>
+        </div>
+        <div class="project-card">
+            <img src="images/project2.png" alt="Healthcare System">
+            <div>
+                <h3>Healthcare Appointment & Billing System</h3>
+                <p>Delivered end-to-end patient appointment and billing platform using <strong>Spring MVC</strong> & <strong>Angular</strong>, integrated Stripe for payments, and AWS EC2 hosting.</p>
+                <a href="projects/project2.html" class="btn">View Details</a>
+            </div>
+        </div>
+        <div class="project-card">
+            <img src="images/project3.png" alt="Employee Management">
+            <div>
+                <h3>Employee Management & Reporting System</h3>
+                <p>Built REST APIs and responsive UI with <strong>jQuery</strong> & <strong>Bootstrap</strong>, managed DB migrations with Liquibase, and deployed to Tomcat.</p>
+                <a href="projects/project3.html" class="btn">View Details</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience">
+        <h2>Experience</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <h3>Senior Full Stack Java Developer</h3>
+                <p>Innovatech Solutions (2021–Present)</p>
+                <ul>
+                    <li>Developed scalable banking microservices with Spring Boot</li>
+                    <li>Managed AWS ECS/EKS deployments</li>
+                </ul>
+            </div>
+            <div class="timeline-item">
+                <h3>Full Stack Java Developer</h3>
+                <p>CodeWave Technologies (2019–2021)</p>
+                <ul>
+                    <li>Healthcare system with appointment scheduling & billing</li>
+                    <li>Stripe & Twilio integrations</li>
+                </ul>
+            </div>
+            <div class="timeline-item">
+                <h3>Software Engineer</h3>
+                <p>NextWave IT Solutions (2017–2019)</p>
+                <ul>
+                    <li>Developed REST APIs & responsive UIs</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications -->
+    <section id="certifications" class="light-section">
+        <h2>Certifications</h2>
+        <ul>
+            <li>Oracle Certified Professional: Java SE 11 Developer</li>
+            <li>Spring Framework Certification – Udemy</li>
+            <li>AWS Certified Developer – Associate</li>
+            <li>Full-Stack Web Development with React – Coursera</li>
+        </ul>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Let’s build something together! You can reach me through:</p>
+        <p>Email: <a href="mailto:Chandangurung67@gmail.com">Chandangurung67@gmail.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/chandan-gurung-694372120" target="_blank">LinkedIn Profile</a></p>
+        <p>GitHub: <a href="https://github.com/chandangrg" target="_blank">GitHub Profile</a></p>
+        <form id="contactForm">
+            <input id="contactName" type="text" placeholder="Your Name" required>
+            <input id="contactEmail" type="email" placeholder="Your Email" required>
+            <textarea id="contactMessage" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+            <div id="contactStatus" style="margin-top:.5rem;color:green;"></div>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Chandan Gurung. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Hire Me Modal -->
+    <div id="hireModal" class="modal" role="dialog" aria-modal="true" aria-hidden="true">
+        <div class="modal-content" role="document">
+            <button id="closeModal" aria-label="Close">✕</button>
+            <h2>Let's talk</h2>
+            <p>Thanks for your interest! Email me at <a href="mailto:Chandangurung67@gmail.com">Chandangurung67@gmail.com</a> or send a message below.</p>
+            <form id="modalContactForm">
+                <input id="modalName" type="text" placeholder="Your name" required>
+                <input id="modalEmail" type="email" placeholder="Your email" required>
+                <textarea id="modalMessage" placeholder="A brief message" required></textarea>
+                <button type="submit" class="btn">Send</button>
+            </form>
+            <div id="modalStatus"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
