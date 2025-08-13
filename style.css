@@ -6,6 +6,9 @@ body {
     line-height: 1.6;
     background-color: #f4f4f4;
 }
+.center-text {
+    text-align: center;
+}
 
 h2 {
     color: #1e2a38;
