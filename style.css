@@ -6,8 +6,8 @@ body {
     line-height: 1.6;
     background-color: #f4f4f4;
 }
-.center-text {
-    text-align: center;
+.justify-text {
+    text-align: justify;
 }
 
 h2 {
